@@ -1,0 +1,20 @@
+* {
+ margin:0px;
+ padding:0px;
+}
+body{
+    height:100vw;
+    width:100vh;;
+    background-image:url('https://store-images.s-microsoft.com/image/apps.63000.9007199266246153.4c9cc6e4-b52b-49b7-abef-ccd6f2baa2cc.d1b7a270-855c-4eb8-b7d1-bfa8c87d7ba8?mode=scale&q=90&h=300&w=300');
+    position:absolute;
+    
+}
+.hello{
+    display:flex;
+    align-content:center;
+    align-items:center;
+    top:50%;
+    left:50%;
+    
+
+}

@@ -1,0 +1,4 @@
+function hello(){
+    alert("please wait you are being redirected to your account !")
+    window.location.replace("http://127.0.0.1:5500/account.html") ;
+}

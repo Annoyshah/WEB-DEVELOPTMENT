@@ -1,0 +1,25 @@
+root{
+
+
+
+    
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:var(--mainblack);
+    background:var(--mainwhite);
+}
+.navbar{
+background:var(--mainwhite);
+
+}
+.navbar-toggler-icon{
+    font-size:2 rem;
+    color:var(--mainblue);
+}
+.navbar-toggler{
+    outline-color:var(--mainyellow)!important;
+}

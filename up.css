@@ -1,0 +1,33 @@
+.school-board{
+    width: 300px;
+    height: 290px;
+    margin: 10px 0 0 0;
+    padding: 25px 0 0 0;
+    background: url(school-board.jpg) no-repeat ;
+    z-index:100;
+    height: 100vh;
+    width: 100vh;
+}
+   
+body{
+    font: 14px/1.6 Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    color: #333;
+    background: #eee;
+}
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.content-wrapper-right{
+width: 300px;
+height: auto;
+float: right;
+margin: 0;
+padding: 0;}

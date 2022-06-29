@@ -1,0 +1,328 @@
+
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+  }
+  
+  /* Additional styling */
+    
+  body {
+    font-size: 18px;
+    font-family: "Vibur", sans-serif;
+    background-color: #010a01;
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+    
+  h1 {
+      font-size: 4.2rem;
+  }
+    
+  h2 {
+      font-size: 1.8rem;
+  }
+  
+  .container {
+    margin-top: 20vh;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+ .bg-image{
+     background-image: url(portfoliopic.jpeg);
+     
+     background-filter: blur(4px);
+     -webkit-filter: blur(4px);
+     height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+ }
+
+ .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .typewriter h2 {
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space:nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+      display:flex;
+      flex-wrap:wrap;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+ 
+  .wrapper{
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+margin:0 auto;
+border:3 px solid white;
+}
+.how-title{
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+  overflow-x:hidden;
+  border: 3 px solid white;
+  
+}
+.skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+    margin: 0;
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:#f4392f;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 95%;
+  
+}
+.skill-bar span{
+    position: absolute;
+    border-top: 5px solid #f4392f 2s forwards;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+  
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+/* SKILL 2 */
+.skill2{
+    width: 85%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 75%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 65%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+    width: 80%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+    width: 90%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}
+/* GITHUB SOURCE STYLE  */
+.github-source{
+float:right;
+display:block;
+color:#fff;
+margin:0 20px;
+position: relative;
+z-index:999999;
+top:0;
+}
+.github-source i{
+font-size:50px;
+color:white;
+}
+.how-title{
+  color:yellow;
+ border: 3px solid black;
+}
+.incontact {
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+.form-class {
+  text-align: center;
+  color: #fff;
+}
+.btn{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 11px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #a13070;
+  background-image: -webkit-linear-gradient(top, #a13070, #4d34d9);
+  background-image: -moz-linear-gradient(top, #a13070, #4d34d9);
+  background-image: -ms-linear-gradient(top, #a13070, #4d34d9);
+  background-image: -o-linear-gradient(top, #a13070, #4d34d9);
+  background-image: linear-gradient(to bottom, #a13070, #4d34d9);
+  text-decoration: none;
+}
+.background{
+
+}
+.wrapper{
+  background: rgba( 225, 224, 240, 0.85 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.glass{
+  background-color: #957FEF;
+}
+.color{
+  background-color: #957FEF;
+}
+.form-class{
+  border-radius: 33px 33px 33px 33px;
+  -webkit-border-radius: 33px 33px 33px 33px;
+  -moz-border-radius: 33px 33px 33px 33px;
+  background: #158cba;
+  border: 5px solid rgba(90,255,80,0.93);
+padding: 50px 50px;
+margin:150 0px;
+}
+#images{
+  padding: 50 50px;
+}
+.card{
+
+  background: rgba( 255, 255, 255, 0.6 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+align-items:center;
+
+}
+.mb3{
+  padding:0 10px;
+}
+.form{
+
+padding :10 500px;}
+.para{
+  
+  column-gap:80px;
+  display:flex;
+  
+
+}

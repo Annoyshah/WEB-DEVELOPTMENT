@@ -1,0 +1,194 @@
+.slideshow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: red;
+
+}
+#header{
+    margin : 100 500 px;
+    padding: 100 500px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    align-content: center;
+   
+
+  }
+
+  .neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+  }
+
+
+/* Additional styling */
+  
+body {
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+  background-color: #010a01;
+}  
+
+h1, h2 {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1;
+}
+  
+h1 {
+    font-size: 6.2rem;
+    animation: pulsate 0.11s ease-in-out infinite alternate;     
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+@keyframes pulsate {
+    
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #f09,
+      0 0 80px #f09,
+      0 0 90px #f09,
+      0 0 100px #f09,
+      0 0 150px #f09;
+  
+  }
+  
+  0% {
+
+    text-shadow:
+    0 0 4px #fff,
+    0 0 10px #fff,
+    0 0 18px #fff,
+    0 0 38px #f09,
+    0 0 73px #f09,
+    0 0 80px #f09,
+    0 0 94px #f09,
+    0 0 140px #f09;
+  }
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    left: 0;
+    
+    }
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid blue;
+        border-right: 16px solid green;
+        border-bottom: 16px solid red;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+      }
+      
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+     .w3-justify{
+       width: 100%;
+     }
+h2{
+  border-style: 2px solid black; 
+}
+
+.about{
+ 
+  width:100%;
+  background-color: palegreen;
+}
+.contact{
+  background-color: yellow;
+  width:90vh;
+}
+
+#preloader{
+  background:#000 url(circular-water-fill-loading-animation.webp) no-repeat center center;
+  height:100vh;
+  width:100%;
+  position: fixed;
+  z-index: 100;
+}
+body
+{
+  margin:0px; auto;
+  padding:0px;
+  text-align:center;
+  font-family:helvetica;
+  color:white;
+}
+#wrapper
+{
+  position:relative;
+}
+#wrapper #stats
+{
+  position:fixed;
+  color:white;
+}
+#wrapper div
+{
+  height:700px;
+}
+#wrapper div p
+{
+  margin:0px;
+  text-align:center;
+  padding:100px;
+  padding-top:150px;
+  font-size:50px;
+}
+#div1_wrapper
+{
+  background:url(parallax1.jpg) no-repeat;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width:100%;
+}
+#div2_wrapper
+{
+  background:url(parallax2.webp) no-repeat;
+  background-attachment:fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width:100%;
+}
